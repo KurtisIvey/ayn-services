@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
 
-type Props = {};
-
-const Home: React.FC = (props: Props) => {
+const Home: React.FC = () => {
   useEffect(() => {
-    document.title = "AYN Services"; // Change "New Tab Title" to whatever you want the new title to be.
+    document.title = "AYN Services";
   }, []);
   return <div>Home</div>;
 };

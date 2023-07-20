@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-type Props = {};
-
-const History = (props: Props) => {
+const History: React.FC = () => {
+  useEffect(() => {
+    document.title = "AYN Services | History";
+  }, []);
   return <div>Bio</div>;
 };
 
