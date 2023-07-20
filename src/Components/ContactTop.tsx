@@ -7,7 +7,7 @@ const medium = "md:text-base md: p-5";
 const ContactTop: React.FC = () => {
   return (
     <div
-      className={`flex justify-between items-center text-[#08406f] font-semibold border-b p-2.5 text-[.75rem]  ${medium}`}
+      className={`flex justify-between items-center text-[#08406f] font-semibold border-b p-2.5 text-[.75rem]  ${medium} z-50`}
     >
       <a href={`tel:${config.phoneNumber}`}>{config.phoneNumber}</a>
       <a href={generateMailtoLink()}>{config.email}</a>
