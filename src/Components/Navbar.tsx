@@ -1,19 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import logo from "../../src/assets/logo.jpg";
 import useWindowWidth from "../hooks/useWindowWidth";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
+  const menuRef = useRef(null);
   const windowWidth = useWindowWidth();
 
   const anchorNormal =
     "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 bg-gray-50";
-  const anchorMed = " md:border-0 md:hover:text-blue-700 md:p-0 ";
+  const anchorMed = " md:border-0 md:hover:text-blue-700 md:p-0 md:bg-white";
   const anchorHover = "hover:bg-gray-150 md:hover:bg-transparent ";
 
   useEffect(() => {
     if (windowWidth > 768) setMenuOpen(false);
   }, [windowWidth]);
+
   return (
     <nav className="bg-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
@@ -44,9 +46,10 @@ const Navbar: React.FC = () => {
           </svg>
         </button>
         <div
+          ref={menuRef}
           className={`${
             menuOpen ? "block" : "hidden"
-          } w-full md:block md:w-auto`}
+          } w-full  md:block md:w-auto`}
           id="navbar-default"
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white md:justify-end">
@@ -73,14 +76,6 @@ const Navbar: React.FC = () => {
                 className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
               >
                 Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
-              >
-                Pricing
               </a>
             </li>
             <li>
