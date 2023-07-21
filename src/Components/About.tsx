@@ -17,12 +17,12 @@ const About: React.FC = () => {
         </p>
         <div
           id="choosing-services"
-          className=" text-[#08406f] text-xs md:text-sm leading-7 tracking-wider"
+          className=" text-[#08406f] text-xs md:text-sm leading-7 tracking-widest"
         >
           <p className=" mt-5 md:mt-7">
             By choosing our services, you can look forward to:
           </p>
-          <div id="bullets">
+          <div id="bullets" className="ml-2">
             <p className="mt-1 md:mt-3 flex flex-row ">
               <span className={`${checkCircle}`}>
                 <AiFillCheckCircle size={16} />
