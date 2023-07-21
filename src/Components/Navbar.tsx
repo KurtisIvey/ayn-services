@@ -52,11 +52,13 @@ const Navbar: React.FC = () => {
         <div
           ref={menuRef}
           className={`${
-            menuOpen ? "block" : "hidden"
-          } w-full  md:block md:w-auto`}
+            menuOpen
+              ? "block absolute inset-x-0 top-[7.5rem] bg-transparent md:relative md:bg-transparent md:w-auto md:top-auto md:mx-0 z-50"
+              : "hidden"
+          } w-full md:block md:w-auto md:mx-0 md:bg-transparent`}
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white md:justify-end">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-200 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white md:justify-end mx-4">
             <li>
               <a
                 href="#"
