@@ -19,7 +19,11 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-white mx-auto w-screen">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <img src={logo} className="h-12 mr-3 md:h-16" alt="Flowbite Logo" />
+        <img
+          src={logo}
+          className="h-12 mr-3 md:h-16 xl:h-20"
+          alt="Flowbite Logo"
+        />
         <button
           data-collapse-toggle="navbar-default"
           type="button"
