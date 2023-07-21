@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
           ref={menuRef}
           className={`${
             menuOpen
-              ? "block absolute inset-x-0 top-[7.5rem] bg-transparent md:relative md:bg-transparent md:w-auto md:top-auto md:mx-0 z-50"
+              ? "block absolute inset-x-0 top-[7.5rem] bg-transparent md:relative md:bg-transparent md:w-auto md:top-auto md:mx-0 z-50 shadow-xl"
               : "hidden"
           } w-full md:block md:w-auto md:mx-0 md:bg-transparent`}
           id="navbar-default"
