@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../../Components/Navbar";
 
 import Banner from "../../Components/Banner";
+import About from "../../Components/About";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
     <section className=" mx-auto">
       <Navbar />
       <Banner />
+      <About />
     </section>
   );
 };
