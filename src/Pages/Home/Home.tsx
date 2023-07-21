@@ -9,8 +9,12 @@ const Home: React.FC = () => {
   return (
     <section>
       <Navbar />
-      <div>
-        <img srcSet={`${smallBanner} 768`} />
+      <div className="h-[190px] md:h-[250px]  lg:h-[300px] w-full overflow-hidden">
+        <img
+          className="object-cover w-full h-full"
+          srcSet={`${smallBanner} 768`}
+          src={smallBanner}
+        />
       </div>
     </section>
   );
