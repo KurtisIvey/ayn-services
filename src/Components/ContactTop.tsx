@@ -9,8 +9,17 @@ const ContactTop: React.FC = () => {
     <div
       className={`flex justify-between items-center text-[#08406f] font-semibold border-b p-2.5 text-[.75rem]  ${medium} z-50`}
     >
-      <a href={`tel:${config.phoneNumber}`}>{config.phoneNumber}</a>
-      <a href={generateMailtoLink()}>{config.email}</a>
+      <a href={`tel:${config.phoneNumber}`} aria-label="Phone number">
+        {config.phoneNumber}
+      </a>
+      <div className="flex flex-col items-end">
+        <a href={generateMailtoLink()} aria-label="Email address">
+          {config.email}
+        </a>
+        <address className="not-italic text-[.65rem] md:text-[.9rem]">
+          {config.address}, {config.cityStateZip}
+        </address>
+      </div>
     </div>
   );
 };
