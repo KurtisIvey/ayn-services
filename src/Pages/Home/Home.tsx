@@ -6,6 +6,8 @@ import AboutSmall from "../../Components/AboutSmall";
 import AboutBig from "../../Components/AboutBig";
 
 import useWindowWidth from "../../hooks/useWindowWidth";
+import ServicesSmall from "../../Components/ServicesSmall";
+import ServicesBig from "../../Components/ServicesBig";
 
 const Home: React.FC = () => {
   const windowWidth = useWindowWidth();
@@ -18,6 +20,7 @@ const Home: React.FC = () => {
       <Navbar />
       <Banner />
       {windowWidth < 1024 ? <AboutSmall /> : <AboutBig />}
+      {windowWidth < 1024 ? <ServicesSmall /> : <ServicesBig />}
     </section>
   );
 };
