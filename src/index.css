@@ -2,13 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* include for smooth scrolling to work */
+html {
+  scroll-behavior: smooth !important;
+}
 /*
   1. Use a more-intuitive box-sizing model.
 */
 
-html {
-  scroll-behavior: smooth !important;
-}
 *, *::before, *::after {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
