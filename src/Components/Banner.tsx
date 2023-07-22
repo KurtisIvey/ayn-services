@@ -2,7 +2,7 @@ import React from "react";
 import smallBanner from "../assets/small-banner.jpg";
 import mediumBanner from "../assets/medium-banner.jpg";
 
-const Banner = () => {
+const Banner: React.FC = () => {
   return (
     <div className="relative h-[190px] md:h-[250px]  lg:h-[300px] w-full lg:w-screen bg-gray-50">
       <div
