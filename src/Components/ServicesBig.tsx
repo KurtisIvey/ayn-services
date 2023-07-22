@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const ServicesBig = (props: Props) => {
+const ServicesBig: React.FC = () => {
   return <div>ServicesBig</div>;
 };
 

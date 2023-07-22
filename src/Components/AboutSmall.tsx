@@ -8,10 +8,11 @@ const About: React.FC = () => {
   return (
     <section className="mx-auto w-full ">
       <div className="  mx-auto px-4 py-2   flex flex-col text-left">
-        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mt-5">
-          About Us
-        </h2>
-        <p className="text-xs md:text-sm leading-5 tracking-wider mt-5 text-[#08406f]">
+        <h2 className="text-2xl md:text-3xl  font-semibold mt-5">About Us</h2>
+        <p
+          style={{ lineHeight: "25px" }}
+          className="text-xs md:text-sm  tracking-wider mt-5 text-[#08406f]"
+        >
           AYN SERVICES' mission is to deliver superior cleaning and building
           maintenance solutions to small and medium businesses and facilities,
           leveraging our extensive <strong>30 Plus Years</strong> of experience
