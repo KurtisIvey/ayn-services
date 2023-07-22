@@ -1,11 +1,13 @@
 import React from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
+import handyMan from "../assets/handy-man.jpg";
+import carpetWashing from "../assets/carpet-washing.jpg";
 
 const About: React.FC = () => {
   const checkCircle = "mt-[5px] mr-3 md:mt-[2px]";
   return (
-    <section className="mx-auto w-screen ">
-      <div className="max-w-screen-xl  mx-auto px-4 py-2   flex flex-col text-left">
+    <section className="mx-auto w-full ">
+      <div className="  mx-auto px-4 py-2   flex flex-col text-left">
         <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mt-5">
           About Us
         </h2>
@@ -56,6 +58,12 @@ const About: React.FC = () => {
           >
             Contact Us Today
           </button>
+        </div>
+        <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
+            <img src={handyMan} className="h-auto w-full " />
+            <img src={carpetWashing} className="h-auto w-full " />
+          </div>
         </div>
       </div>
     </section>

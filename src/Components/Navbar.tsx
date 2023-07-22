@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   }, [windowWidth]);
 
   return (
-    <nav className="bg-white mx-auto w-screen">
+    <nav className="bg-white mx-auto w-full">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <img
           src={logo}

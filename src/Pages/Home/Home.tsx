@@ -2,9 +2,12 @@ import React, { useEffect } from "react";
 import Navbar from "../../Components/Navbar";
 
 import Banner from "../../Components/Banner";
-import About from "../../Components/About";
+import AboutSmall from "../../Components/AboutSmall";
+import useWindowWidth from "../../hooks/useWindowWidth";
 
 const Home: React.FC = () => {
+  const windowWidth = useWindowWidth();
+
   useEffect(() => {
     document.title = "AYN Services";
   }, []);
@@ -12,7 +15,7 @@ const Home: React.FC = () => {
     <section className=" mx-auto">
       <Navbar />
       <Banner />
-      <About />
+      {windowWidth < 1024 ? <AboutSmall /> : <AboutBig />}
     </section>
   );
 };

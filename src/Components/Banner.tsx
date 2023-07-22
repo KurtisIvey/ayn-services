@@ -4,7 +4,7 @@ import mediumBanner from "../assets/medium-banner.jpg";
 
 const Banner = () => {
   return (
-    <div className="relative h-[190px] md:h-[250px]  lg:h-[300px] w-screen bg-gray-50">
+    <div className="relative h-[190px] md:h-[250px]  lg:h-[300px] w-full bg-gray-50">
       <div
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
         className="relative text-[1.8rem] md:text-4xl xl:text-[3rem] z-2 text-[#ffffff] "
