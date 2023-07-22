@@ -60,7 +60,7 @@ const About: React.FC = () => {
           </button>
         </div>
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-5">
             <img src={handyMan} className="h-auto w-full " />
             <img src={carpetWashing} className="h-auto w-full " />
           </div>
