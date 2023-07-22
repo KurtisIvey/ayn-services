@@ -5,6 +5,10 @@
 /*
   1. Use a more-intuitive box-sizing model.
 */
+
+html {
+  scroll-behavior: smooth !important;
+}
 *, *::before, *::after {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;

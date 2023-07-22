@@ -70,15 +70,15 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
-                href="#"
-                className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
+                href="#about"
+                className={`${anchorNormal} ${anchorMed} ${anchorHover} `}
               >
                 About
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#services"
                 className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
               >
                 Services

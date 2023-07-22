@@ -16,11 +16,13 @@ const Home: React.FC = () => {
     document.title = "AYN Services";
   }, []);
   return (
-    <section className=" mx-auto">
+    <section className=" mx-auto scroll-smooth">
       <Navbar />
       <Banner />
-      {windowWidth < 1024 ? <AboutSmall /> : <AboutBig />}
-      {windowWidth < 1024 ? <ServicesSmall /> : <ServicesBig />}
+      <div id="about">{windowWidth < 1024 ? <AboutSmall /> : <AboutBig />}</div>
+      <div id="services">
+        {windowWidth < 1024 ? <ServicesSmall /> : <ServicesBig />}
+      </div>
     </section>
   );
 };
