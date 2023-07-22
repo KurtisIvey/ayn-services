@@ -3,6 +3,8 @@ import Navbar from "../../Components/Navbar";
 
 import Banner from "../../Components/Banner";
 import AboutSmall from "../../Components/AboutSmall";
+import AboutBig from "../../Components/AboutBig";
+
 import useWindowWidth from "../../hooks/useWindowWidth";
 
 const Home: React.FC = () => {

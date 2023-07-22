@@ -6,7 +6,7 @@ const medium = "md:text-base md: p-5";
 
 const ContactTop: React.FC = () => {
   return (
-    <div className="w-full">
+    <div className="w-full lg:w-screen">
       <div
         className={`container max-w-screen-xl mx-auto flex justify-between items-center text-[#08406f]
        font-semibold border-b p-2.5 text-[.75rem]  ${medium} z-50 `}
