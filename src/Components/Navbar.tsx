@@ -4,7 +4,6 @@ import useWindowWidth from "../hooks/useWindowWidth";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
-  const menuRef = useRef(null);
   const windowWidth = useWindowWidth();
 
   const anchorNormal =
@@ -50,7 +49,6 @@ const Navbar: React.FC = () => {
           </svg>
         </button>
         <div
-          ref={menuRef}
           className={`${
             menuOpen
               ? "block absolute inset-x-0 top-[7.5rem] bg-transparent md:relative md:bg-transparent md:w-auto md:top-auto md:mx-0 z-50 shadow-xl"
@@ -61,8 +59,9 @@ const Navbar: React.FC = () => {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-200 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white md:justify-end mx-4">
             <li>
               <a
+                onClick={() => setMenuOpen(false)}
                 href="#"
-                className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
+                className={`${anchorNormal} ${anchorMed} ${anchorHover} bg-[#e2e1e1]`}
                 aria-current="page"
               >
                 Home
@@ -70,6 +69,7 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
+                onClick={() => setMenuOpen(false)}
                 href="#about"
                 className={`${anchorNormal} ${anchorMed} ${anchorHover} `}
               >
@@ -78,6 +78,7 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
+                onClick={() => setMenuOpen(false)}
                 href="#services"
                 className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
               >
@@ -86,6 +87,7 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a
+                onClick={() => setMenuOpen(false)}
                 href="#"
                 className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
               >
