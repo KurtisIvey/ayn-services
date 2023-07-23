@@ -8,7 +8,7 @@ const AboutBig = () => {
   return (
     <section className="mx-auto w-full my-12 ">
       <div className="grid grid-cols-2 max-w-screen-xl mx-auto">
-        <img src={carpetWashing} className="h-full w-auto object-cover" />
+        <img src={carpetWashing} className="h-full w-auto object-cover p-3" />
         <div className="  mx-auto px-4 py-2   flex flex-col text-left justify-evenly">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold">
             About Us

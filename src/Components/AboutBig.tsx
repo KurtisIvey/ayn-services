@@ -64,7 +64,7 @@ const AboutBig = () => {
             </button>
           </div>
         </div>{" "}
-        <img src={handyMan} className="h-full w-auto object-cover" />
+        <img src={handyMan} className="h-full w-auto object-cover p-3" />
       </div>
     </section>
   );
