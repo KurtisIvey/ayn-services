@@ -6,65 +6,77 @@ const AboutBig = () => {
   const checkCircle = "mt-[5px] mr-3 md:mt-[2px]";
 
   return (
-    <section className="mx-auto w-full my-12 ">
-      <div className="grid grid-cols-2 max-w-screen-xl mx-auto">
-        <img src={carpetWashing} className="h-full w-auto object-cover p-3" />
-        <div className="  mx-auto px-4 py-2   flex flex-col text-left justify-evenly">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold">
-            About Us
+    <section className="mx-auto w-screen py-12 bg-[#f1f1f1]">
+      <div className="grid grid-cols-2 max-w-screen-xl mx-auto bg-inherit">
+        <img
+          src={carpetWashing}
+          className="h-full w-auto object-cover p-3 bg-inherit"
+        />
+        <div className="  mx-auto px-4 py-2   flex flex-col text-left justify-evenly bg-inherit">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold bg-inherit">
+            Our Services
           </h2>
           <p
             style={{ lineHeight: "25px" }}
-            className="text-xs md:text-sm tracking-wider mt-5 text-[#08406f]"
+            className="text-sm md:text-base leading-5 tracking-wider mt-5 text-[#08406f] mb-1 bg-inherit"
           >
-            AYN SERVICES' mission is to deliver superior cleaning and building
-            maintenance solutions to small and medium businesses and facilities,
-            leveraging our extensive <strong>30 Plus Years</strong> of
-            experience in the services industry.
+            We provide a broad range of professional services in building
+            cleaning and maintenance
           </p>
           <div
             id="choosing-services"
-            className=" text-[#08406f] text-xs md:text-sm leading-7 tracking-widest"
+            className="bg-inherit text-[#08406f] text-xs md:text-sm leading-7 tracking-wider"
           >
-            <p className=" mt-5 md:mt-7">
-              By choosing our services, you can look forward to:
-            </p>
-            <div id="bullets" className="ml-2">
-              <p className="mt-1 md:mt-3 flex flex-row ">
-                <span className={`${checkCircle}`}>
-                  <AiFillCheckCircle size={16} />
+            <div id="bullets" className="ml-2 bg-inherit">
+              <p className=" flex flex-row bg-transparent">
+                <span className={`${checkCircle} bg-transparent`}>
+                  <AiFillCheckCircle size={16} className="icon" />
                 </span>
-                Receiving reliable and outstanding cleaning solutions
+                General building maintenance
               </p>
               <p className="mt-1 md:mt-3 flex flex-row ">
-                <span className={`${checkCircle}`}>
-                  <AiFillCheckCircle size={16} />
+                <span className={`${checkCircle} bg-transparent`}>
+                  <AiFillCheckCircle size={16} className="icon" />
                 </span>
-                Having a personalized maintenance service to fit your needs
+                Minor repairs of facilities
               </p>
               <p className="mt-1 md:mt-3 flex flex-row ">
-                <span className={`${checkCircle}`}>
-                  <AiFillCheckCircle size={16} />
+                <span className={`${checkCircle} bg-transparent`}>
+                  <AiFillCheckCircle size={16} className="icon" />
                 </span>
-                Having a clean, safe, maintained, and healthy work environment
+                Scheduled maintenance or inspection
               </p>
               <p className="mt-1 md:mt-3 flex flex-row ">
-                <span className={`${checkCircle}`}>
-                  <AiFillCheckCircle size={16} />
+                <span className={`${checkCircle} bg-transparent`}>
+                  <AiFillCheckCircle size={16} className="icon" />
                 </span>
-                Preventative maintenance that extends the life of your facility
+                Assembling of office equipment
+              </p>
+              <p className="mt-1 md:mt-3 flex flex-row ">
+                <span className={`${checkCircle} bg-transparent`}>
+                  <AiFillCheckCircle size={16} className="icon" />
+                </span>
+                Cleaning and maintenance of all floor types
+              </p>
+              <p className="mt-1 md:mt-3 flex flex-row ">
+                <span className={`${checkCircle} bg-transparent`}>
+                  <AiFillCheckCircle size={16} className="icon" />
+                </span>
+                Cleaning of all types of fabric
               </p>
             </div>
-            <button
-              type="button"
-              className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
-         focus:ring-blue-300 font-medium rounded-sm text-sm px-10 py-2.5 mr-2 mb-2
-         mt-5 shadow-md"
+            <p
+              style={{ lineHeight: "25px" }}
+              className="text-xs md:text-sm tracking-wider mt-5 text-[#08406f] "
             >
-              Contact Us Today
-            </button>
+              At AYN SERVICES, we understand the urgency customers often face, &
+              our team of professionals is committed to providing prompt and
+              efficient service. We prioritize the needs of businesses &
+              organizations of all sizes, making every effort to accommodate
+              their needs.
+            </p>
           </div>
-        </div>{" "}
+        </div>
       </div>
     </section>
   );

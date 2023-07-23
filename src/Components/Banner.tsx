@@ -4,7 +4,7 @@ import mediumBanner from "../assets/medium-banner.jpg";
 
 const Banner: React.FC = () => {
   return (
-    <div className="relative h-[190px] md:h-[250px]  lg:h-[300px] w-full lg:w-screen bg-gray-50 lg:overflow-x-hidden">
+    <div className="relative h-[190px] md:h-[250px]  lg:h-[350px] w-full lg:w-screen bg-[#f1f1f1] lg:overflow-x-hidden">
       <div
         style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
         className="relative text-[1.8rem] md:text-4xl xl:text-[3rem] z-2 text-[#ffffff] "
