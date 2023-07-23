@@ -132,7 +132,7 @@ const ServicesSmall: React.FC = () => {
         </h3>
         <p
           style={{ lineHeight: "25px" }}
-          className="text-xs md:text-sm tracking-wider mt-5 text-[#08406f] "
+          className="text-sm md:text-md tracking-wider mt-5 text-[#08406f] "
         >
           Tap into our pool of qualified licensed professionals to handle
           multiple projects encompassing AC, plumbing, electrical, and
