@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
         ) : (
           <div className="flex flex-col text-xs text-gray-500 space-y-2">
             <div>© AYN Services, LLC All Rights Reserved.</div>
-            <div>6841 Virginia Pkwy, McKinney, Texas US</div>
+            <address>6841 Virginia Pkwy, McKinney, Texas US</address>
             <div className="text-[.5rem]">
               Web Design by{" "}
               <a
