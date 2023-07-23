@@ -8,6 +8,7 @@ import AboutBig from "../../Components/AboutBig";
 import useWindowWidth from "../../hooks/useWindowWidth";
 import ServicesSmall from "../../Components/ServicesSmall";
 import ServicesBig from "../../Components/ServicesBig";
+import Subservices from "../../Components/Subservices";
 
 const Home: React.FC = () => {
   const windowWidth = useWindowWidth();
@@ -21,7 +22,14 @@ const Home: React.FC = () => {
       <Banner />
       <div id="about">{windowWidth < 1024 ? <AboutSmall /> : <AboutBig />}</div>
       <div id="services">
-        {windowWidth < 1024 ? <ServicesSmall /> : <ServicesBig />}
+        {windowWidth < 1024 ? (
+          <ServicesSmall />
+        ) : (
+          <>
+            <ServicesBig />
+            <Subservices />
+          </>
+        )}
       </div>
     </section>
   );
