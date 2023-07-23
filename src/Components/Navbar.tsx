@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <img
           src={logo}
-          className="h-12 mr-3 md:h-16 xl:h-20"
+          className="h-14 mr-3 md:h-[4.5rem] xl:h-[5rem]"
           alt="Flowbite Logo"
         />
         <button
