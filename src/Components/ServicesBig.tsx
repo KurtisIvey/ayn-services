@@ -27,7 +27,7 @@ const AboutBig: React.FC = () => {
             id="choosing-services"
             className="bg-inherit text-[#08406f] text-xs md:text-sm leading-7 tracking-wider"
           >
-            <div id="bullets" className="ml-2 bg-inherit">
+            <div id="bullets" className="ml-2 bg-inherit mt-3">
               <p className=" flex flex-row bg-transparent">
                 <span className={`${checkCircle} bg-transparent`}>
                   <AiFillCheckCircle size={16} className="icon" />
