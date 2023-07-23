@@ -6,6 +6,8 @@
 /* include for smooth scrolling to work */
 html {
   scroll-behavior: smooth !important;
+  overflow-x: hidden;
+
 }
 /*
   1. Use a more-intuitive box-sizing model.

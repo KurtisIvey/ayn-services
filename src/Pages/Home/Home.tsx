@@ -16,7 +16,7 @@ const Home: React.FC = () => {
     document.title = "AYN Services";
   }, []);
   return (
-    <section className=" mx-auto scroll-smooth">
+    <section className=" mx-auto scroll-smooth ">
       <Navbar />
       <Banner />
       <div id="about">{windowWidth < 1024 ? <AboutSmall /> : <AboutBig />}</div>
