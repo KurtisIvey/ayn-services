@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
 import handyMan from "../assets/handy-man.jpg";
 
-const AboutBig = () => {
+const AboutBig: React.FC = () => {
   const checkCircle = "mt-[5px] mr-3 md:mt-[2px]";
 
   return (

@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const Subservices = (props: Props) => {
+const Subservices: React.FC = () => {
   return <div>Subservices</div>;
 };
 
