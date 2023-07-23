@@ -9,6 +9,7 @@ import useWindowWidth from "../../hooks/useWindowWidth";
 import ServicesSmall from "../../Components/ServicesSmall";
 import ServicesBig from "../../Components/ServicesBig";
 import Subservices from "../../Components/Subservices";
+import Footer from "../../Components/Footer";
 
 const Home: React.FC = () => {
   const windowWidth = useWindowWidth();
@@ -31,6 +32,7 @@ const Home: React.FC = () => {
           </>
         )}
       </div>
+      <Footer />
     </section>
   );
 };
