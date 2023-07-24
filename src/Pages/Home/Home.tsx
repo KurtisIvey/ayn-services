@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "../../Components/Navbar";
 
 import Banner from "../../Components/Banner";
@@ -15,9 +15,6 @@ import Contact from "../../Components/Contact";
 const Home: React.FC = () => {
   const windowWidth = useWindowWidth();
 
-  useEffect(() => {
-    document.title = "AYN Services";
-  }, []);
   return (
     <section className=" mx-auto scroll-smooth ">
       <Navbar />
