@@ -7,9 +7,9 @@ const Navbar: React.FC = () => {
   const windowWidth = useWindowWidth();
 
   const anchorNormal =
-    "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 bg-gray-50";
+    "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-[#e1e1e1] bg-gray-50";
   const anchorMed = " md:border-0 md:hover:text-blue-700 md:p-0 md:bg-white";
-  const anchorHover = "hover:bg-gray-150 md:hover:bg-transparent ";
+  const anchorHover = " md:hover:bg-transparent ";
 
   useEffect(() => {
     if (windowWidth > 768) setMenuOpen(false);
@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
               <a
                 onClick={() => setMenuOpen(false)}
                 href="#"
-                className={`${anchorNormal} ${anchorMed} ${anchorHover} bg-[#e2e1e1]`}
+                className={`${anchorNormal} ${anchorMed}  bg-[#c4c4c4] `}
                 aria-current="page"
               >
                 Home
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
             <li>
               <a
                 onClick={() => setMenuOpen(false)}
-                href="#"
+                href="#contact"
                 className={`${anchorNormal} ${anchorMed} ${anchorHover}`}
               >
                 Contact

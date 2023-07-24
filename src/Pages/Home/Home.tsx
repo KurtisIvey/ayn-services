@@ -10,6 +10,7 @@ import ServicesSmall from "../../Components/ServicesSmall";
 import ServicesBig from "../../Components/ServicesBig";
 import Subservices from "../../Components/Subservices";
 import Footer from "../../Components/Footer";
+import Contact from "../../Components/Contact";
 
 const Home: React.FC = () => {
   const windowWidth = useWindowWidth();
@@ -31,6 +32,9 @@ const Home: React.FC = () => {
             <Subservices />
           </>
         )}
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
       <Footer />
     </section>
