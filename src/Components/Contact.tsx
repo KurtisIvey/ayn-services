@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
         <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 ">
           Contact Us
         </h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-base">
+        <p className="mb-8 lg:mb-16  text-center text-[#08406f] sm:text-base">
           Seeking comprehensive services? Experience a one-stop solution for
           cleaning and maintenance services. Fill out the form below, and we'll
           promptly assist you. Your satisfaction is our priority!
