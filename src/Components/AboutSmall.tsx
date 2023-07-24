@@ -55,7 +55,7 @@ const About: React.FC = () => {
             type="button"
             className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
              focus:ring-blue-300 font-medium rounded-sm text-sm px-10 py-2.5 mr-2 mb-2
-             mt-5 shadow-md"
+             mt-5 shadow-md hover:shadow-lg"
           >
             Contact Us Today
           </button>

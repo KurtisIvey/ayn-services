@@ -59,8 +59,9 @@ const Contact: React.FC = () => {
           Contact Us
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-base">
-          Got a technical issue? Want to send feedback about a beta feature?
-          Need details about our Business plan? Let us know.
+          Seeking comprehensive services? Experience a one-stop solution for
+          cleaning and maintenance services. Fill out the form below, and we'll
+          promptly assist you. Your satisfaction is our priority!
         </p>
         <form action="#" className="space-y-8" onSubmit={(e) => sendEmail(e)}>
           <div>
@@ -125,8 +126,9 @@ const Contact: React.FC = () => {
           </div>
           <button
             type="submit"
-            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none 
-                focus:ring-blue-300 "
+            className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
+             focus:ring-blue-300 font-medium rounded-sm text-sm px-10 py-2.5 mr-2 mb-2
+             mt-5 shadow-md hover:shadow-lg"
           >
             Send message
           </button>
