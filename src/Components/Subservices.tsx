@@ -8,7 +8,7 @@ const Subservices: React.FC = () => {
     <section className="mx-auto w-full  max-w-7xl px-4 py-12">
       <p
         style={{ lineHeight: "25px" }}
-        className="text-base md:text-lg  tracking-wider mt-5 text-[#08406f] mb-1 font-semibold"
+        className="text-base md:text-lg  tracking-wider mt-5 text-[#08406f] mb-1 "
       >
         We also provide a variety of specialty cleaning services
       </p>

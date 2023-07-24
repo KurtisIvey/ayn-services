@@ -13,7 +13,7 @@ const ServicesSmall: React.FC = () => {
         {/*first section */}
         <p
           style={{ lineHeight: "25px" }}
-          className="text-sm md:text-base leading-5 tracking-wider mt-5 text-[#08406f] mb-1 font-semibold"
+          className="text-sm md:text-base leading-5 tracking-wider mt-5 text-[#08406f] mb-1 "
         >
           We provide a broad range of professional services in building cleaning
           and maintenance
@@ -65,7 +65,7 @@ const ServicesSmall: React.FC = () => {
         {/*second section */}
         <p
           style={{ lineHeight: "25px" }}
-          className="text-sm md:text-base  tracking-wider mt-5 text-[#08406f] mb-1 font-semibold"
+          className="text-sm md:text-base  tracking-wider mt-5 text-[#08406f] mb-1 "
         >
           We also provide a variety of specialty cleaning services
         </p>
