@@ -61,7 +61,7 @@ const Subservices: React.FC = () => {
           </p>
         </div>
       </div>
-      <h3 className="text-xl md:text-2xl  font-semibold mt-10">
+      <h3 className="text-xl md:text-2xl  font-semibold mt-14">
         Management of Projects
       </h3>
       <p
