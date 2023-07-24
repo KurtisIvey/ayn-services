@@ -18,9 +18,13 @@ const ContactTop: React.FC = () => {
           <a href={generateMailtoLink()} aria-label="Email address">
             {config.email}
           </a>
-          <address className="not-italic text-[.65rem] md:text-[.9rem]">
+          <a
+            href="https://www.google.com/maps/search/16527+Addison+Road,+Addison,+TX+75001"
+            target="_blank"
+            aria-label="address"
+          >
             {config.address}, {config.cityStateZip}
-          </address>
+          </a>
         </div>
       </div>
     </div>
