@@ -22,44 +22,44 @@ const ServicesSmall: React.FC = () => {
           id="choosing-services"
           className=" text-[#08406f] text-xs md:text-sm leading-7 tracking-wider"
         >
-          <div id="bullets" className="ml-2">
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+          <ul id="bullets" className="ml-2">
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               General building maintenance
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Minor repairs of facilities
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Scheduled maintenance or inspection
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Assembling of office equipment
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Cleaning and maintenance of all floor types
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Cleaning of all types of fabric
-            </p>
-          </div>
+            </li>
+          </ul>
         </div>
 
         {/*second section */}
@@ -73,50 +73,50 @@ const ServicesSmall: React.FC = () => {
           id="choosing-services"
           className=" text-[#08406f] text-xs md:text-sm leading-7 tracking-wider"
         >
-          <div id="bullets" className="ml-2">
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+          <ul id="bullets" className="ml-2">
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Carpet maintenance and restoration
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Polishing and honing marble, terrazzo and concrete
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Vct stripping and waxing
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Concrete polishing and staining
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Warehouse floor cleaning and maintenance
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Cleaning windows
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
-              <span className={`${checkCircle}`}>
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
+              <span className={`${checkCircle} aria-hidden="true"`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Power washing
-            </p>
-          </div>
+            </li>
+          </ul>
         </div>
         <p
           style={{ lineHeight: "25px" }}
