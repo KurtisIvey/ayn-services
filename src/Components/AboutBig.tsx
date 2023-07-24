@@ -16,7 +16,11 @@ const AboutBig: React.FC = () => {
             style={{ lineHeight: "25px" }}
             className="text-xs md:text-sm tracking-wider mt-5 text-[#08406f]"
           >
-            AYN SERVICES' mission is to deliver superior cleaning and building
+            Founded by{" "}
+            <a href="/bio" className="font-semibold hover:underline">
+              Scott Robertson
+            </a>
+            , AYN SERVICES' mission is to deliver superior cleaning and building
             maintenance solutions to small and medium businesses and facilities,
             leveraging our extensive <strong>30 Plus Years</strong> of
             experience in the services industry.

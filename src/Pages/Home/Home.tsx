@@ -9,7 +9,6 @@ import useWindowWidth from "../../hooks/useWindowWidth";
 import ServicesSmall from "../../Components/ServicesSmall";
 import ServicesBig from "../../Components/ServicesBig";
 import Subservices from "../../Components/Subservices";
-import Footer from "../../Components/Footer";
 import Contact from "../../Components/Contact";
 
 const Home: React.FC = () => {
@@ -33,7 +32,6 @@ const Home: React.FC = () => {
       <div id="contact">
         <Contact />
       </div>
-      <Footer />
     </section>
   );
 };

@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   const windowWidth = useWindowWidth();
 
   return (
-    <footer className="bg-white shadow">
+    <footer className="bg-white shadow flex-grow">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <hr className="my-3 border-gray-200 sm:mx-auto lg:my-8" />
         {windowWidth > 1023 ? (
