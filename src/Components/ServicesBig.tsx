@@ -6,8 +6,8 @@ const AboutBig: React.FC = () => {
   const checkCircle = "mt-[5px] mr-3 md:mt-[2px]";
 
   return (
-    <section className="mx-auto w-screen py-12 bg-[#f1f1f1]">
-      <div className="grid grid-cols-2 max-w-screen-xl mx-auto bg-inherit">
+    <section className="mx-auto w-screen  ">
+      <div className="grid grid-cols-2 max-w-screen-xl mx-auto py-12 bg-[#f1f1f1]">
         <img
           src={carpetWashing}
           className="h-full w-auto object-cover p-3 bg-inherit"
@@ -18,7 +18,7 @@ const AboutBig: React.FC = () => {
           </h2>
           <p
             style={{ lineHeight: "25px" }}
-            className="text-sm md:text-base leading-5 tracking-wider mt-5 text-[#08406f] mb-1 bg-inherit"
+            className="text-sm md:text-base leading-5 tracking-wider mt-5 text-[#08406f] mb-1 bg-inherit "
           >
             We provide a broad range of professional services in building
             cleaning and maintenance

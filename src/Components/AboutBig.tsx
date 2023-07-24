@@ -25,7 +25,7 @@ const AboutBig: React.FC = () => {
             id="choosing-services"
             className=" text-[#08406f] text-xs md:text-sm leading-7 tracking-widest"
           >
-            <p className=" mt-5 md:mt-7">
+            <p className="text-sm md:text-base mt-5 md:mt-7 ">
               By choosing our services, you can look forward to:
             </p>
             <div id="bullets" className="ml-2">
@@ -58,7 +58,7 @@ const AboutBig: React.FC = () => {
               type="button"
               className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
          focus:ring-blue-300 font-medium rounded-sm text-sm px-10 py-2.5 mr-2 mb-2
-         mt-5 shadow-md"
+         mt-10 shadow-md"
             >
               Contact Us Today
             </button>

@@ -8,7 +8,7 @@ const Subservices: React.FC = () => {
     <section className="mx-auto w-full  max-w-7xl px-4 py-12">
       <p
         style={{ lineHeight: "25px" }}
-        className="text-base md:text-lg  tracking-wider mt-5 text-[#08406f] mb-1"
+        className="text-base md:text-lg  tracking-wider mt-5 text-[#08406f] mb-1 font-semibold"
       >
         We also provide a variety of specialty cleaning services
       </p>
@@ -61,6 +61,18 @@ const Subservices: React.FC = () => {
           </p>
         </div>
       </div>
+      <h3 className="text-xl md:text-2xl  font-semibold mt-10">
+        Management of Projects
+      </h3>
+      <p
+        style={{ lineHeight: "25px" }}
+        className="text-sm md:text-base tracking-wider mt-5 text-[#08406f] "
+      >
+        Tap into our pool of qualified licensed professionals to handle multiple
+        projects encompassing AC, plumbing, electrical, and remodeling.
+        Experience comprehensive project management and top-notch service
+        tailored to your specific requirements.
+      </p>
     </section>
   );
 };

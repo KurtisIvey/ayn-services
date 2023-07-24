@@ -59,9 +59,9 @@ const Contact: React.FC = () => {
           Contact Us
         </h2>
         <p className="mb-8 lg:mb-16  text-center text-[#08406f] sm:text-base">
-          Seeking comprehensive services? Experience a one-stop solution for
-          cleaning and maintenance services. Fill out the form below, and we'll
-          promptly assist you. Your satisfaction is our priority!
+          Looking for comprehensive services? Discover our one-stop solution for
+          all your cleaning and maintenance needs. Complete the form below, and
+          we'll promptly assist you. Your satisfaction is our utmost priority!
         </p>
         <form action="#" className="space-y-8" onSubmit={(e) => sendEmail(e)}>
           <div>
