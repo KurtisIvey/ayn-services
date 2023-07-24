@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 
 const serviceId = "service_czn6l3k";
 const templateId = "template_9n1i6ih";
-const userId = "WWmbzRrQEylWdm-T7";
+const userId = "WWmbzRrQEyIWdm-T7";
 
 const Contact: React.FC = () => {
   const to_name = useMemo(() => "Scott Robertson", []);
