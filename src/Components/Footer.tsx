@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             <address className="not-italic inline">
               {config.address}, {config.cityStateZip}{" "}
             </address>
-            <div className="text-[.6rem]">
+            <div className="text-[.6rem] text-gray-400/70">
               <span className="">Web Design by </span>
               <a
                 target="_blank"
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             <address className="not-italic inline">
               {config.address}, {config.cityStateZip}
             </address>
-            <div className="text-[.5rem]">
+            <div className="text-[.5rem] text-gray-400/70">
               Web Design by{" "}
               <a
                 target="_blank"
