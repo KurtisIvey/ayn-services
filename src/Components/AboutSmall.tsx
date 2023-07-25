@@ -14,7 +14,12 @@ const About: React.FC = () => {
           className="text-xs md:text-sm  tracking-wider mt-5 text-[#08406f]"
         >
           Founded by{" "}
-          <a href="/bio" className="font-semibold hover:underline">
+          <a
+            href="/bio"
+            className="font-semibold hover:underline"
+            aria-label="bio"
+            tabIndex={0}
+          >
             Scott Robertson
           </a>
           , AYN SERVICES' mission is to deliver superior cleaning and building
@@ -60,14 +65,24 @@ const About: React.FC = () => {
             className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
              focus:ring-blue-300 font-medium rounded-sm text-sm px-10 py-2.5 mr-2 mb-2
              mt-5 shadow-md hover:shadow-lg"
+            aria-label="Contact Us Today"
+            tabIndex={0}
           >
             Contact Us Today
           </button>
         </div>
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-5">
-            <img src={handyMan} className="h-auto w-full " />
-            <img src={carpetWashing} className="h-auto w-full " />
+            <img
+              src={handyMan}
+              alt="Handy Man"
+              className="object-cover w-full h-60 md:h-auto md:w-full"
+            />
+            <img
+              src={carpetWashing}
+              alt="Carpet Washing"
+              className="object-cover w-full h-60 md:h-auto md:w-full"
+            />
           </div>
         </div>
       </div>
