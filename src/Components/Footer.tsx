@@ -14,6 +14,7 @@ const Footer: React.FC = () => {
             © AYN Services, LLC All Rights Reserved.{" "}
             <address className="inline non-italic">
               <a
+                tabIndex={0}
                 className="  hover:text-blue-500"
                 href="https://www.google.com/maps/search/16527+Addison+Road,+Addison,+TX+75001"
                 target="_blank"
@@ -26,6 +27,8 @@ const Footer: React.FC = () => {
             <div className="text-[.6rem] text-gray-400/70">
               <span className="">Web Design by </span>
               <a
+                tabIndex={0}
+                aria-aria-label="Ivey Software Solutions website"
                 target="_blank"
                 className="inline hover:underline hover:text-blue-500"
                 href="http://www.iveycoding.pro"
@@ -45,6 +48,7 @@ const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener"
                 title="Click to view address on Google Maps"
+                tabIndex={0}
               >
                 {config.address}, {config.cityStateZip}
               </a>
@@ -52,10 +56,12 @@ const Footer: React.FC = () => {
             <div className="text-[.5rem] text-gray-400/70">
               Web Design by{" "}
               <a
+                aria-aria-label="Ivey Software Solutions website"
                 target="_blank"
                 className="inline hover:underline hover:text-blue-500"
                 href="http://www.iveycoding.pro"
                 title="Visit Ivey Software Solutions website"
+                tabIndex={0}
               >
                 Ivey Software Solutions
               </a>
