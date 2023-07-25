@@ -41,6 +41,7 @@ const Footer: React.FC = () => {
             <div>© AYN Services, LLC All Rights Reserved.</div>
             <address className="inline non-italic">
               <a
+                aria-label="google maps address location"
                 className=" hover:text-blue-500"
                 href="https://www.google.com/maps/search/16527+Addison+Road,+Addison,+TX+75001"
                 target="_blank"
