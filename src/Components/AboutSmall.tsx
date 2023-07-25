@@ -76,12 +76,12 @@ const About: React.FC = () => {
             <img
               src={handyMan}
               alt="Handy Man"
-              className="object-cover w-full h-60 md:h-auto md:w-full"
+              className="object-cover w-full h-[16rem] md:h-auto md:w-full"
             />
             <img
               src={carpetWashing}
               alt="Carpet Washing"
-              className="object-cover w-full h-60 md:h-auto md:w-full"
+              className="object-cover w-full h-[16rem] md:h-auto md:w-full"
             />
           </div>
         </div>
