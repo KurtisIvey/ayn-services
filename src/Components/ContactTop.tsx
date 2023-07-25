@@ -5,7 +5,10 @@ import generateMailtoLink from "../functions/generateMailToLink";
 const ContactTop: React.FC = () => {
   return (
     <header className="w-full lg:w-screen bg-white border-b">
-      <div className="container max-w-screen-xl mx-auto flex justify-between items-center text-[#08406f] font-semibold p-2.5 text-[.75rem] md:text-base md:p-5 z-50">
+      <div
+        className="container max-w-screen-xl mx-auto flex justify-between items-center text-[#08406f] 
+           p-2.5 text-[.75rem] md:text-sm font-medium md:p-5 z-50"
+      >
         <a href={`tel:${config.phoneNumber}`} aria-label="Phone number">
           {config.phoneNumber}
         </a>
