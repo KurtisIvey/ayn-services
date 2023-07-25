@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../Components/Navbar2";
 import Banner from "../../Components/Banner";
+import scottImg from "../../assets/scott.jpg";
 
 const Bio: React.FC = () => {
   return (
@@ -12,6 +13,11 @@ const Bio: React.FC = () => {
           <h2 className="text-2xl md:text-3xl font-semibold mt-5">
             Our Founder
           </h2>
+          <img
+            className="mx-auto max-h-[25rem] rounded-md my-14"
+            src={scottImg}
+            alt="Scott Robertson"
+          />
           <p
             style={{ lineHeight: "26px" }}
             className="text-sm md:text-base tracking-wider mt-5 text-[#08406f]"
