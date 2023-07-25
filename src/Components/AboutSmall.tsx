@@ -29,32 +29,32 @@ const About: React.FC = () => {
           <p className=" mt-5 md:mt-7">
             By choosing our services, you can look forward to:
           </p>
-          <div id="bullets" className="ml-2">
-            <p className="mt-1 md:mt-3 flex flex-row ">
+          <ul id="bullets" className="ml-2">
+            <li className="mt-1 md:mt-3 flex flex-row ">
               <span className={`${checkCircle}`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Receiving reliable and outstanding cleaning solutions
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
               <span className={`${checkCircle}`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Having a personalized maintenance service to fit your needs
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
               <span className={`${checkCircle}`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Having a clean, safe, maintained, and healthy work environment
-            </p>
-            <p className="mt-1 md:mt-3 flex flex-row ">
+            </li>
+            <li className="mt-1 md:mt-3 flex flex-row ">
               <span className={`${checkCircle}`}>
                 <AiFillCheckCircle size={16} />
               </span>
               Preventative maintenance that extends the life of your facility
-            </p>
-          </div>
+            </li>
+          </ul>
           <button
             type="button"
             className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
