@@ -1,7 +1,7 @@
 import React from "react";
 import config from "../config";
 import generateMailtoLink from "../functions/generateMailToLink";
-
+import { FaHandshake, FaLinkedin } from "react-icons/fa";
 const ContactTop: React.FC = () => {
   return (
     <header className="w-full lg:w-screen bg-white border-b">
@@ -25,6 +25,28 @@ const ContactTop: React.FC = () => {
           >
             {config.address}, {config.cityStateZip}
           </a>
+          <div className="flex gap-3 items-center m-1 mr-0">
+            <a
+              href="https://www.thebluebook.com/iProView/1498706/ayn-services-llc/subcontractors/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit AYN Services on The Blue Book"
+            >
+              <span className="sr-only">AYN Services on The Blue Book</span>
+              <FaHandshake size={25} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/aynservices/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Connect with AYN Services on LinkedIn"
+            >
+              <span className="sr-only">
+                Connect with AYN Services on LinkedIn
+              </span>
+              <FaLinkedin size={25} />
+            </a>
+          </div>
         </div>
       </div>
     </header>
