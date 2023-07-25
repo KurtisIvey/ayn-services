@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
 
   return (
     <section className="bg-white">
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <div className="py-8 lg:pt-0  px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900">
           Contact Us
         </h2>

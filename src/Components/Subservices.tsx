@@ -6,7 +6,7 @@ const Subservices: React.FC = () => {
   const descriptionStyle = { lineHeight: "25px" };
 
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 py-12" role="region">
+    <section className="mx-auto w-full max-w-7xl px-4 py-12 " role="region">
       <h2 className="text-xl md:text-2xl font-semibold text-[#08406f] mt-5 mb-1">
         Specialty Cleaning Services
       </h2>

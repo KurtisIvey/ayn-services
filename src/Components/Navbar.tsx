@@ -73,16 +73,6 @@ const Navbar: React.FC = () => {
             <li>
               <a
                 onClick={() => setMenuOpen(false)}
-                href="#"
-                className={`${anchorNormal} ${anchorMed}  bg-[#c4c4c4] md:hover:bg-transparent md:underline `}
-                aria-current="page"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                onClick={() => setMenuOpen(false)}
                 href="#about"
                 className={`${anchorNormal} ${anchorMed} ${anchorHover} `}
               >
