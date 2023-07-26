@@ -34,19 +34,6 @@ const Bio: React.FC = () => {
             struggle to find reliable and outstanding cleaning and maintenance
             solutions.
           </p>
-
-          <p
-            style={{ lineHeight: "26px" }}
-            className="text-sm md:text-base tracking-wider mt-7 text-[#08406f]"
-          >
-            Thanks to his exceptional leadership, AYN Services collaborates with
-            renowned companies, including Blue Cross Blue Shield, Walmart, Tenet
-            Healthcare Corporation, Foundation Place, Comerica Tower, Jones Lang
-            LaSalle, Berkshire Hathaway, Under Armour, Kindercare, Barnes &
-            Noble, Dick’s Sporting Goods, Fiat Chrysler America, CBRE, and all
-            Follette Bookstores nationwide. - Scott Robertson, Founder of AYN
-            Services
-          </p>
         </div>
       </div>
     </section>
