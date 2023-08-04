@@ -54,7 +54,7 @@
 
 ## About The Project
 
-**AYN Services** is a landing page for AYN Services is designed to showcase their professional cleaning and building maintenance solutions for small and medium businesses and facilities.
+**AYN Services** is a landing page for AYN Services that I designed to showcase their professional cleaning and building maintenance solutions for small and medium businesses and facilities.
 
 Fully Deployed Project [AYN Services](https://aynservicesbyivey.netlify.app/)
 
