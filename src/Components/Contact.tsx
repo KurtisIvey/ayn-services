@@ -1,9 +1,7 @@
 import React, { useState, useCallback, useMemo } from "react";
-import emailjs from "@emailjs/browser";
+//import emailjs from "@emailjs/browser";
 
-const serviceId = "service_czn6l3k";
-const templateId = "template_9n1i6ih";
-const userId = "WWmbzRrQEyIWdm-T7";
+
 
 const Contact: React.FC = () => {
   const to_name = useMemo(() => "Scott Robertson", []);
@@ -30,10 +28,9 @@ const Contact: React.FC = () => {
     e.preventDefault();
 
     try {
-      const form = e.currentTarget;
-      await emailjs.sendForm(serviceId, templateId, form, userId);
-      console.log("SUCCESS!");
-      alert("Email sent!");
+      //const form = e.currentTarget;
+      // await emailjs.sendForm(serviceId, templateId, form, userId);
+      alert("Contact Form disabled in portfolio preview");
       resetForm();
     } catch (error) {
       console.log("FAILED...", error);
