@@ -60,13 +60,13 @@ const AboutBig: React.FC = () => {
             </ul>
             <button
               type="button"
-              className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
-         focus:ring-blue-300 font-medium rounded-sm text-sm px-10 py-2.5 mr-2 mb-2
-         mt-10 shadow-md"
+              className="py-2.5 mr-2 mb-2 mt-10 "
               aria-label="Contact Us Today"
               tabIndex={0}
             >
-              Contact Us Today
+              <a href="#contact" className="text-white bg-blue-700/90 hover:bg-blue-800 focus:ring-4
+         focus:ring-blue-300 font-medium rounded-sm text-sm px-10 py-2.5 
+         shadow-md">Contact Us Today</a>
             </button>
           </div>
         </div>{" "}
