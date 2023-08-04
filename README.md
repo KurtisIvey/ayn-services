@@ -78,11 +78,11 @@ Fully Deployed Project [AYN Services](https://aynservicesbyivey.netlify.app/)
 
 ### Installation
 
-This project is currently setup to only run as a landing page. The contact form has been disabled to prevent emails that aren't work related being sent to the business owner.
+This project is currently setup to only run as a landing page. The contact form has been disabled to prevent emails that aren't work related being sent to the business owner. Other than that, clone the repo and run npm install. After which, run npm run dev inside the folder to load the website.
 
 ## Usage
 
-This front was primarily created to mimic many of the features present on Facebook such as registration, login, posting text, commenting text, updating usernames, updating profile photos, and adding/removing friends. It communicates with my Odin-book-backend. If you need a reference for such code examples, you're free to use/borrow/reference any of the code present. Reach out to me if you have any questions.
+This website was designed by me and has stock images present that are only legal to be used with the possession of the license. Any use not abiding by this is in violation of freepik stock photo policy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +117,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Kurtis Ivey - [@IveyCodingBjj](https://twitter.com/IveyCodingBjj) - kurtiveycodes@gmail.com - [linkedin.com/in/kurtisivey/](https://www.linkedin.com/in/kurtisivey/)
 
-Project Link: [https://jiujitsu-connect.herokuapp.com/](https://jiujitsu-connect.herokuapp.com/)
+Project Link: [https://aynservicesbyivey.netlify.app/](https://aynservicesbyivey.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +126,6 @@ Project Link: [https://jiujitsu-connect.herokuapp.com/](https://jiujitsu-connect
 ## Acknowledgments
 
 - [Tailwind](https://tailwindcss.com/)
-- [Heroku](https://devcenter.heroku.com/categories/reference)
 - [React Icons](https://react-icons.github.io/react-icons/search)
 - [The repo for this awesome README template courtesy of Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 
