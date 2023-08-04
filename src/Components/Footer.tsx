@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             <div className="text-[.6rem] text-gray-400/70">
               <span className="">Web Design by </span>
               <a
-                aria-aria-label="Ivey Software Solutions website"
+                aria-label="Ivey Software Solutions website"
                 target="_blank"
                 className="inline hover:underline hover:text-blue-500"
                 href="http://www.iveycoding.pro"
