@@ -54,15 +54,9 @@
 
 ## About The Project
 
-**Jiu Jitsu Connect** is a full stack project that leverages all the programming skills I have acquired so far to create a facebook clone. It features a React Frontend that is written in TypeScript using Vite. Redux is utilized to store session info on the client and persisted using redux-persist. Styling is done via the use of Tailwind CSS as the primary focus was functionality of the web app. The backend utilizes Javascript, AWS S3 bucket, MongoDB, Supertest, Node.js, and Express.js. Both the frontend and backend are hosted on heroku. AWS S3 bucket is utilized in the backend to handle image uploading from the frontend. Authentication is handled via the use of Json Web Tokens.
+**AYN Services** is a landing page for AYN Services is designed to showcase their professional cleaning and building maintenance solutions for small and medium businesses and facilities.
 
-**Jiu Jitsu Connect client** is the frontend that communicates with my Jiu-Jitsu-Connect-backend. It is a React frontend built using Vite due to Create-react-app no longer being supported. I wrote it in TypeScript to challenge and further develop my programming skills. Styling is done using Tailwind CSS as my primary focus was functionality of the web application. Redux is utilized to store session info as it is persisted using redux-persist. Demo access is available via the login page to tour the app.
-
-Backend Repo [Jiu Jitsu Connect backend](https://github.com/KurtisIvey/jiu-jitsu-connect-backend)
-
-Fully Deployed Project [Jiu Jitsu Connect](https://jiujitsu-connect.herokuapp.com/)
-
-give it about 15-30 seconds after pressing login initially as the backend may be asleep 😴
+Fully Deployed Project [AYN Services](https://www.aynservices.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
