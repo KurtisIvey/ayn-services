@@ -56,7 +56,7 @@
 
 **AYN Services** is a landing page for AYN Services is designed to showcase their professional cleaning and building maintenance solutions for small and medium businesses and facilities.
 
-Fully Deployed Project [AYN Services](https://www.aynservices.com/)
+Fully Deployed Project [AYN Services](https://aynservicesbyivey.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +78,7 @@ Fully Deployed Project [AYN Services](https://www.aynservices.com/)
 
 ### Installation
 
-This project is currently setup to only run in conjunction with the backend I created due to the various fetch calls located throughout the app. In order to use it, you would need to clone the repo from my backend, configure the proper env variables for it, and then replace the fetch urls with the url from the locally hosted backend.
+This project is currently setup to only run as a landing page. The contact form has been disabled to prevent emails that aren't work related being sent to the business owner.
 
 ## Usage
 
