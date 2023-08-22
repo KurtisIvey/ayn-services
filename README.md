@@ -78,7 +78,7 @@ Fully Deployed Project [AYN Services](https://aynservicesbyivey.netlify.app/)
 
 ### Installation
 
-This project is currently setup to only run as a landing page. The contact form has been disabled to prevent emails that aren't work related being sent to the business owner. Other than that, clone the repo and run npm install. After which, run npm run dev inside the folder to load the website.
+This repo is currently setup to only run as a dummy landing page to be featured on my github. The actual website is running off of another account as I don't want any interference with it. The contact form has been disabled to prevent emails that aren't work related being sent to the business owner. Other than that, clone the repo and run npm install. After which, run npm run dev inside the folder to load the website.
 
 ## Usage
 
